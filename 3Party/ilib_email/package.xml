@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.5.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+    http://pear.php.net/dtd/tasks-1.0.xsd
+    http://pear.php.net/dtd/package-2.0
+    http://pear.php.net/dtd/package-2.0.xsd">
+ <name>antispambot</name>
+ <channel>public.intraface.dk</channel>
+ <summary>Obfuscate email</summary>
+ <description>A function to obfucate an email to protect against spam. Function is from Wordpress 2.2.</description>
+ <lead>
+  <name>Lars Olesen</name>
+  <user>lsolesen</user>
+  <email>lars@legestue.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2007-06-11</date>
+ <time>09:28:55</time>
+ <version>
+  <release>0.1.0</release>
+  <api>0.1.0</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.gnu.org/copyleft/gpl.html">GNU GENERAL PUBLIC LICENSE</license>
+ <notes>* Initial release as PEAR package</notes>
+ <contents>
+  <dir baseinstalldir="wordpress" name="/">
+   <file name="antispambot.php" role="php" />
+  </dir> <!-- / -->
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>4.3.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.5.0</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2007-06-11</date>
+   <license uri="http://www.gnu.org/copyleft/gpl.html">GNU GENERAL PUBLIC LICENSE</license>
+   <notes>* Initial release as PEAR package</notes>
+  </release>
+  <release>
+   <version>
+    <release>2.2.0</release>
+    <api>2.2.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2007-06-11</date>
+   <license uri="http://www.gnu.org/copyleft/gpl.html">GNU GENERAL PUBLIC LICENSE</license>
+   <notes>* Initial release as PEAR package</notes>
+  </release>
+ </changelog>
+</package>
